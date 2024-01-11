@@ -40,7 +40,11 @@ function NavBar () {
   return (
     <AppBar
       position='static'
-      style={{ background: 'transparent', backgroundColor: 'none' }}
+      style={{
+        background: 'transparent',
+        backgroundColor: 'none',
+        boxShadow: 'none'
+      }}
     >
       <Container maxWidth='xl'>
         <Toolbar disableGutters>
@@ -131,7 +135,7 @@ function NavBar () {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 1, color: 'white', display: 'block', mr: 2 }}
+                sx={{ my: 1, color: 'black', display: 'block', mr: 2 }}
               >
                 {page}
               </Button>

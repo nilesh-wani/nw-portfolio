@@ -1,0 +1,49 @@
+.intro {
+  flex-direction: column;
+  max-width: 50%;
+}
+.name {
+  font-size: 4.75rem !important;
+  // line-height: 1;
+  font-family: Playfair Display, serif !important;
+  // text-align: center;
+}
+
+.summary {
+  font-size: 20px !important;
+  line-height: 32px;
+}
+
+.container {
+  max-width: 1152px;
+  padding: 0 15px;
+  margin: 90px auto 0 auto;
+}
+
+.socialIcons {
+  width: 50px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 548px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1152px;
+  }
+}
