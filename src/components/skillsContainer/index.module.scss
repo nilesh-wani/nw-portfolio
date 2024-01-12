@@ -1,12 +1,4 @@
-.container {
-  // max-width: 1152px;
-  padding: 0 15px;
-  margin: 90px auto 0 auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
-  .paper {
+.paper {
     width: 100%;
     max-width: 390px;
     background: rgb(23, 23, 33);
@@ -23,20 +15,12 @@
         text-align: center;
         margin: 5px auto 10px auto;
 
-     
+        .icons {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
     }
-}
-
-  .containerContent{
-    display: flex;
-    justify-content: center;
-  }
-}
-
-.icons {
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8px;
 }
